@@ -1,0 +1,298 @@
+/*
+Autor: Bruno Luis da Silva
+Data de criaçãp: 03/06/2016
+Data de modificação: 03/06/2016
+Descrição: Estilização geral das páginas das páginas dos visitantes.
+*/
+
+/* Estilização que aparece em todas as páginas */
+html{
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+body{
+  background-color: rgb(51, 51, 51);
+}
+
+header{
+  width: 100%;
+  height: 130px;
+}
+
+.img_logo{
+  width:350px;
+  height: 120px;
+  float: left;
+}
+
+header h1{
+  width: 465px;
+  height: 70px;
+  font-size: 60px;
+  margin: 0px;
+  margin-top: 30px;
+  margin-left: 25px;
+  color: rgb(255, 53, 139);
+  float: left;
+}
+
+.login{
+  width: 330px;
+  height: 125px;
+  float: right;
+}
+
+.texto_login_senha{
+  font-size: 23px;
+  color: rgb(1, 176, 240);
+  font-style: oblique;
+}
+
+.areabotoes_autenticacao{
+  width: 95px;
+  height: 25px;
+  background-color: rgb(255, 53, 239);
+  border: 1px solid rgb(0, 0, 0);
+  margin-left: 10px;
+}
+
+
+
+nav{
+  width: 600px;
+  height: 30px;
+  margin: 0px auto;
+}
+
+#menu ul{
+  list-style: none;
+}
+
+#menu li{
+  height: 20px;
+  float: left;
+  background-color: rgb(1, 176, 240);
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: 15px;
+  border: 2px solid;
+}
+
+#menu ul li a{
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
+.titulo_areaconteudo{
+  text-align: center;
+  font-size: 35px;
+  color: rgb(255, 53, 139);
+}
+
+.area_conteudo{
+  width: 880px;
+  min-height: 130px;
+  border: 2px solid;
+  margin: 0px auto;
+}
+
+footer{
+  width: 80%;
+  min-height: 80px;
+  border: 2px solid rgb(0, 0, 0);
+  background-color: rgb(1, 176, 240);
+  margin: 0px auto;
+  margin-top: 25px;
+  display: table;
+}
+
+footer p{
+  width: 440px;
+  font-size: 50px;
+  color: rgb(255, 53, 139);
+  margin: 0px;
+  margin-top: 5px;
+  float: left;
+}
+
+.area_patrocinio{
+  width: 570px;
+  min-height: 60px;
+  margin: 0px;
+  float: right;
+  margin-top: 15px;
+  margin-bottom: 15px;
+
+}
+
+.imgs_patrocinadores{
+  width: 110px;
+  height: 50px;
+}
+
+/* Fecha estilação geral de todas as páginas */
+
+/* Estilização dos titulos do body das páginas das atrações, sobre.  */
+
+.titulos_internos{
+  font-size: 25px;
+  color: rgb(174, 238, 0);
+}
+
+/* Fecha estilização dos titulos do body de algumas páginas */
+
+/*Estilização da página inicial*/
+
+.texto_introducao{
+  width: 800px;
+  height: 200px;
+  margin-top: 50px;
+  margin-left: 40px;
+  border: 1px solid;
+  color: rgb(1, 176, 240);
+}
+
+
+.area_img_sobre{
+  margin-left: 40px;
+}
+
+.img_sobre{
+  width: 163px;
+  height: 100px;
+  border: 2px solid;
+  margin-right: 40px;
+}
+
+/*Fecha estilização da página inicial */
+
+
+/* Estilização da página sobre */
+
+.paragrafo_sobre{
+  width: 815px;
+  height: 80px;
+  padding: 25px;
+  border: 1px solid;
+  color: rgb(1, 176, 240);
+}
+
+.area_local{
+  width: 430px;
+  height: 200px;
+  border: 1px solid;
+  float: left;
+  color: rgb(1, 176, 240);
+}
+
+.mapa_sobre{
+  width: 400px;
+  height: 200px;
+  border: 2px solid;
+  margin-right: 15px;
+  margin-top: 15px;
+  float: right;
+}
+
+.paragrafo_contato{
+  width: 430px;
+  height: 160px;
+  border: 1px solid;
+  font-size: 20px;
+  color: rgb(1, 176, 240);
+}
+/* Fecha estilização da página sobre */
+
+/* Abre estilização da página da programação */
+
+.tabela_programacao{
+  width: 230px;
+  height: 140px;
+  border: 2px solid;
+  margin-left: 50px;
+  margin-top: 30px;
+  border-collapse: collapse;
+  float: left;
+}
+
+.linha_data{
+  border: 2px solid rgb(0, 0, 0);
+  text-align: center;
+  color: rgb(1, 176, 240);
+}
+
+.linha_atracao{
+  border-right: 2px solid rgb(0, 0, 0);
+  color: rgb(1, 176, 240);
+}
+
+.celula_horario{
+  margin-top: 2px;
+  display: inline;
+  color: rgb(1, 176, 240);
+}
+
+/* Fecha estilização da página da programação */
+
+/* Abre estilização da página das atrações */
+
+.titulo_atracao{
+  text-align: center;
+  font-size: 25px;
+  color: rgb(174, 238, 0);
+}
+
+.paragrafo_atracao{
+    width: 380px;
+    height: 200px;
+    border: 1px solid;
+    float: left;
+    margin-left: 20px;
+    color: rgb(1, 176, 240);
+}
+
+.imgs_atracao{
+  width: 380px;
+  height: 200px;
+  border: 1px solid;
+  margin-left: 75px;
+  margin-top: 15px;
+}
+
+/* Abre estilização da página das atrações */
+
+.tabela_cadastro{
+  text-align: center;
+  font-size: 25px;
+  color: rgb(174, 238, 0);
+  margin: 0 auto;
+  margin-top: 40px;
+}
+
+.botoes_form{
+  width: 120px;
+  height: 25px;
+  margin-left: 10px;
+  background-color: rgb(255, 53, 139);
+  border: 2px solid rgb(0, 0, 0);
+}
+
+/* Fecha Estilização da página do cadastro */
+
+/* Abre estilização da área de cadstro php */
+.area_cadvalidacao{
+  width: 400px;
+  height: 200px;
+  margin: 10px 250px;
+  border: 2px solid rgb(1, 176, 240);
+  border-radius: 30px;
+}
+
+.imgs_validacao{
+  width: 80px;
+  height: 80px;
+  margin-left: 160px;
+}
+/* Fecha estilização da área de cadastro php */
